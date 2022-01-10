@@ -1,1 +1,1 @@
-# JAVA-Jungsuk
+# 자바의 정석
