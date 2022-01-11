@@ -12,4 +12,4 @@ public class Exercise4_3 {
     }
 }
 
-//답은 2036.
+//답은 220.
