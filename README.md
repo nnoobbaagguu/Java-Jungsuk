@@ -14,6 +14,7 @@ for (int tmp : arr) {
 ```
 
 ```
+// 이름 붙은 반복문
 loop : while (true) {
   while (true) {
     break loop; // loop를 빠져나와서
