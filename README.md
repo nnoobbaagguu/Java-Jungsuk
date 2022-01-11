@@ -1,5 +1,27 @@
 # 자바의 정석
 
+<h2>Chapter 04. 조건문과 반복문</h2>
+
+```
+// 향상된 for문
+for ( 타입 변수명 : 배열 또는 컬렉션 ) {}
+
+int sum = 0;
+int[] arr = { 1, 2, 3, 4, 5 };
+for (int tmp : arr) {
+  sum += tmp;
+}
+```
+
+```
+loop : while (true) {
+  while (true) {
+    break loop; // loop를 빠져나와서
+  }
+  System.out.println("loop");
+} // 여기로 이동
+```
+
 <h5>의문점1 - Chapter02 변수 72p</h5>
 실수는 부동소수점수의 형태로 저장한다.<br>
 float의 경우 가수는 23개의 bit로 저장한다.<br>
