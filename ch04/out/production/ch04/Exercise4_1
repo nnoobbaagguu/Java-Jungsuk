@@ -1,0 +1,8 @@
+1. if (10 < x && x < 20)
+2. if (ch != ' ' && ch != '\t')
+3. if (ch == 'x' || ch == 'X')
+4. if ('0' <= ch && ch <= '9')
+5. if ('a' <= ch && ch <= 'z' || 'A' <= ch && ch <= 'Z')
+6. if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0)
+7. if (!powerOn)
+8. if (str.equals("yes"))
