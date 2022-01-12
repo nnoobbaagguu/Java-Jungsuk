@@ -23,6 +23,18 @@ loop : while (true) {
 } // 여기로 이동
 ```
 
+<h2>Chapter 05. 배열 array</h2>
+
+<p>배열의 최대 길이는 int 타입의 최대값인 2^31 - 1이고, 최소 길이는 0이다.</p>
+
+```
+// System.arraycopy()를 이용한 배열의 복사
+int[] num = { 1, 2, 3, 4, 5 };
+int[] newNum = new int[10];
+System.arraycopy(num, 0, newNum, 0, num.length);
+```
+  
+  
 <h5>의문점1 - Chapter02 변수 72p</h5>
 실수는 부동소수점수의 형태로 저장한다.<br>
 float의 경우 가수는 23개의 bit로 저장한다.<br>
